@@ -67,4 +67,4 @@ To reproduce the analysis, follow these steps:
 5. Run the following script in the terminal to properly format the data:
     - `sh scripts/data.sh`, and type in the path to the downloaded .zip file.
         - For example, if the file is in your Downloads folder, you would type `sh scripts/data.sh ~/Downloads/5m-trees-dataset.zip`.
-6. Run the Jupyter Notebooks in `notebooks` to analyze your now-formatted data. Project Jupyter should have been installed in the `requirements.txt` step, but if not, see [Installing Jupyter](https://jupyter.org/install).
+6. Run the Jupyter Notebooks in `notebooks` to analyze your now-formatted data. Project Jupyter should have been installed in the `requirements.txt` step, but if not, see [Installing Jupyter](https://jupyter.org/install). If you want a Jupyter server to work in, run `python3 -m jupyter notebook`.
