@@ -22,4 +22,4 @@ find . -type f ! -name "*.csv" -delete
 # Remove the csv titled Column_Headers_Dryad.csv
 rm Column_Headers_Dryad.csv
 # Tell the user all done
-echo "Data has been downloaded and cleaned"
+echo "Data has been and cleaned and formatted for the project."
