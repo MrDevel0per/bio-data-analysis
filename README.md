@@ -1,8 +1,8 @@
 # Analyzing Tree Data
 ## 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳
-This is a lab performed by Owen Cruz-Abrams, sophmore at Aspen High School. The lab aims to determine the effect of elevation on tree density, and uses a large enough dataset that control variables are largely unnecessary.
+This is a lab performed by Owen Cruz-Abrams, Class of 2026 at Aspen High School. The lab aims to determine the effect of elevation on tree height, and uses a large enough dataset that control variables are largely unnecessary.
 ## Purpose
-To determine the effect of elevation on tree density, and thus the effect of elevation on the ability of trees to grow.
+To determine the effect of elevation on tree height, and thus the effect of elevation on the ability of trees to grow.
 The actual research question states:
 > How does the elevation of a tree (2500-3100m) affect its average height (meters)?
 
@@ -64,6 +64,7 @@ To reproduce the analysis, follow these steps:
     - Then, type `source venv/bin/activate` and hit <kbd>Enter</kbd>.
     - Finally, type `pip install -r requirements.txt` and hit <kbd>Enter</kbd>.
 4. Download the data from https://www.kaggle.com/datasets/mexwell/5m-trees-dataset
-5. Run the following script in the terminal to analyze the data:
+5. Run the following script in the terminal to properly format the data:
     - `sh scripts/data.sh`, and type in the path to the downloaded .zip file.
         - For example, if the file is in your Downloads folder, you would type `sh scripts/data.sh ~/Downloads/5m-trees-dataset.zip`.
+6. Run the Jupyter Notebooks in `notebooks` to analyze your now-formatted data. Project Jupyter should have been installed in the `requirements.txt` step, but if not, see [Installing Jupyter](https://jupyter.org/install).
